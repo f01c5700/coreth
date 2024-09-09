@@ -6,8 +6,8 @@ package evm
 import (
 	"errors"
 
-	"github.com/ava-labs/avalanchego/database"
 	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/f01c5700/avalanchego/database"
 )
 
 var (

@@ -31,9 +31,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ava-labs/avalanchego/snow"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/f01c5700/avalanchego/snow"
 	"github.com/f01c5700/coreth/constants"
 	"github.com/f01c5700/coreth/core/types"
 	"github.com/f01c5700/coreth/params"

@@ -8,9 +8,9 @@ import (
 	context "context"
 	reflect "reflect"
 
-	ids "github.com/ava-labs/avalanchego/ids"
-	bls "github.com/ava-labs/avalanchego/utils/crypto/bls"
-	warp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
+	ids "github.com/f01c5700/avalanchego/ids"
+	bls "github.com/f01c5700/avalanchego/utils/crypto/bls"
+	warp "github.com/f01c5700/avalanchego/vms/platformvm/warp"
 	gomock "go.uber.org/mock/gomock"
 )
 

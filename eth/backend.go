@@ -34,11 +34,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/event"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/f01c5700/avalanchego/utils/timer/mockable"
 	"github.com/f01c5700/coreth/accounts"
 	"github.com/f01c5700/coreth/consensus"
 	"github.com/f01c5700/coreth/consensus/dummy"

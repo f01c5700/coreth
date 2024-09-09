@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ava-labs/avalanchego/ids"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/f01c5700/avalanchego/ids"
 )
 
 var _ Request = CodeRequest{}

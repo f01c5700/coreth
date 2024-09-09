@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/upgrade"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/f01c5700/avalanchego/snow"
+	"github.com/f01c5700/avalanchego/upgrade"
 	"github.com/f01c5700/coreth/utils"
 )
 

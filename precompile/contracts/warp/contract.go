@@ -7,8 +7,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp/payload"
+	"github.com/f01c5700/avalanchego/vms/platformvm/warp"
+	"github.com/f01c5700/avalanchego/vms/platformvm/warp/payload"
 	"github.com/f01c5700/coreth/accounts/abi"
 	"github.com/f01c5700/coreth/precompile/contract"
 	"github.com/f01c5700/coreth/vmerrs"

@@ -7,10 +7,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp/payload"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/crypto/bls"
+	avalancheWarp "github.com/f01c5700/avalanchego/vms/platformvm/warp"
+	"github.com/f01c5700/avalanchego/vms/platformvm/warp/payload"
 	"github.com/f01c5700/coreth/warp/aggregator"
 )
 

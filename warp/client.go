@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/ids"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/f01c5700/avalanchego/ids"
 	"github.com/f01c5700/coreth/rpc"
 )
 

@@ -34,9 +34,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/avalanchego/ids"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/f01c5700/avalanchego/ids"
 	"github.com/f01c5700/coreth/accounts/abi/bind"
 	"github.com/f01c5700/coreth/core/types"
 	"github.com/f01c5700/coreth/interfaces"

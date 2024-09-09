@@ -31,7 +31,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/upgrade"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/f01c5700/avalanchego/upgrade"
 	"github.com/f01c5700/coreth/consensus"
 	"github.com/f01c5700/coreth/consensus/dummy"
 	"github.com/f01c5700/coreth/consensus/misc/eip4844"
@@ -41,8 +43,6 @@ import (
 	"github.com/f01c5700/coreth/params"
 	"github.com/f01c5700/coreth/trie"
 	"github.com/f01c5700/coreth/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/holiman/uint256"
 	"golang.org/x/crypto/sha3"
 )

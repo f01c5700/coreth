@@ -8,11 +8,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp/payload"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/f01c5700/avalanchego/vms/platformvm/warp"
+	"github.com/f01c5700/avalanchego/vms/platformvm/warp/payload"
 	"github.com/f01c5700/coreth/precompile/precompileconfig"
 	"github.com/f01c5700/coreth/predicate"
 	warpValidators "github.com/f01c5700/coreth/warp/validators"

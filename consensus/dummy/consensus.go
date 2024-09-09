@@ -10,8 +10,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/f01c5700/avalanchego/utils/timer/mockable"
 	"github.com/f01c5700/coreth/consensus"
 	"github.com/f01c5700/coreth/consensus/misc/eip4844"
 	"github.com/f01c5700/coreth/core/state"

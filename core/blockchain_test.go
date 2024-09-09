@@ -9,7 +9,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/upgrade"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/f01c5700/avalanchego/upgrade"
 	"github.com/f01c5700/coreth/consensus/dummy"
 	"github.com/f01c5700/coreth/core/rawdb"
 	"github.com/f01c5700/coreth/core/state"
@@ -18,9 +21,6 @@ import (
 	"github.com/f01c5700/coreth/core/vm"
 	"github.com/f01c5700/coreth/eth/tracers/logger"
 	"github.com/f01c5700/coreth/params"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/stretchr/testify/require"
 )
 

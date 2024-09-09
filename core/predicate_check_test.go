@@ -7,12 +7,12 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/f01c5700/avalanchego/snow/engine/snowman/block"
+	"github.com/f01c5700/avalanchego/utils/set"
 	"github.com/f01c5700/coreth/core/types"
 	"github.com/f01c5700/coreth/params"
 	"github.com/f01c5700/coreth/precompile/precompileconfig"
-	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

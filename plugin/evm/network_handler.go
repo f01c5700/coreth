@@ -6,9 +6,9 @@ package evm
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
 	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/f01c5700/avalanchego/codec"
+	"github.com/f01c5700/avalanchego/ids"
 	"github.com/f01c5700/coreth/metrics"
 	"github.com/f01c5700/coreth/plugin/evm/message"
 	syncHandlers "github.com/f01c5700/coreth/sync/handlers"

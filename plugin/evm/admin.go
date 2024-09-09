@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/utils/profiler"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/f01c5700/avalanchego/api"
+	"github.com/f01c5700/avalanchego/utils/profiler"
 )
 
 // Admin is the API service for admin API calls

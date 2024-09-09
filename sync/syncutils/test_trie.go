@@ -10,7 +10,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/f01c5700/avalanchego/utils/wrappers"
 	"github.com/f01c5700/coreth/accounts/keystore"
 	"github.com/f01c5700/coreth/core/types"
 	"github.com/f01c5700/coreth/trie"

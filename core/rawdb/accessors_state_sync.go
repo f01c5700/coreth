@@ -6,10 +6,10 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"github.com/ava-labs/avalanchego/utils/wrappers"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/f01c5700/avalanchego/utils/wrappers"
 )
 
 // ReadSyncRoot reads the root corresponding to the main trie of an in-progress

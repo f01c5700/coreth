@@ -7,14 +7,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/timer"
+	"github.com/f01c5700/avalanchego/utils/timer"
 	"github.com/f01c5700/coreth/core"
 	"github.com/f01c5700/coreth/core/txpool"
 	"github.com/f01c5700/coreth/params"
 
-	"github.com/ava-labs/avalanchego/snow"
-	commonEng "github.com/ava-labs/avalanchego/snow/engine/common"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/f01c5700/avalanchego/snow"
+	commonEng "github.com/f01c5700/avalanchego/snow/engine/common"
 )
 
 const (

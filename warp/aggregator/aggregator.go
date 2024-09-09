@@ -9,9 +9,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	"github.com/ava-labs/avalanchego/utils/set"
-	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
+	"github.com/f01c5700/avalanchego/utils/crypto/bls"
+	"github.com/f01c5700/avalanchego/utils/set"
+	avalancheWarp "github.com/f01c5700/avalanchego/vms/platformvm/warp"
 	"github.com/f01c5700/coreth/precompile/contracts/warp"
 )
 

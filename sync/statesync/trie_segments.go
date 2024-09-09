@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/utils/wrappers"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/f01c5700/avalanchego/utils/wrappers"
 	"github.com/f01c5700/coreth/core/rawdb"
 	"github.com/f01c5700/coreth/plugin/evm/message"
 	syncclient "github.com/f01c5700/coreth/sync/client"

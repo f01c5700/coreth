@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/avalanchego/utils/wrappers"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/f01c5700/avalanchego/utils/wrappers"
 	"github.com/f01c5700/coreth/core/types"
 	"github.com/f01c5700/coreth/params"
 )

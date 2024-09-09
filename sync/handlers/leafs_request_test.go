@@ -9,10 +9,10 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/f01c5700/avalanchego/ids"
 	"github.com/f01c5700/coreth/core/rawdb"
 	"github.com/f01c5700/coreth/core/state/snapshot"
 	"github.com/f01c5700/coreth/core/types"
