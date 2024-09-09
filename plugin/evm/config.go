@@ -66,6 +66,7 @@ var (
 	defaultEnabledAPIs = []string{
 		"eth",
 		"eth-filter",
+		"eth-bundle",
 		"net",
 		"web3",
 		"internal-eth",
