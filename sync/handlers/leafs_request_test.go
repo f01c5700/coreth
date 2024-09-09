@@ -10,16 +10,16 @@ import (
 	"testing"
 
 	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/state/snapshot"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/plugin/evm/message"
-	"github.com/ava-labs/coreth/sync/handlers/stats"
-	"github.com/ava-labs/coreth/sync/syncutils"
-	"github.com/ava-labs/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/f01c5700/coreth/core/rawdb"
+	"github.com/f01c5700/coreth/core/state/snapshot"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/plugin/evm/message"
+	"github.com/f01c5700/coreth/sync/handlers/stats"
+	"github.com/f01c5700/coreth/sync/syncutils"
+	"github.com/f01c5700/coreth/trie"
 	"github.com/stretchr/testify/assert"
 )
 

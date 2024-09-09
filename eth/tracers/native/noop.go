@@ -30,9 +30,9 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/ava-labs/coreth/core/vm"
-	"github.com/ava-labs/coreth/eth/tracers"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/f01c5700/coreth/core/vm"
+	"github.com/f01c5700/coreth/eth/tracers"
 )
 
 func init() {

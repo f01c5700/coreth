@@ -30,9 +30,9 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/rpc"
+	"github.com/f01c5700/coreth/core"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/rpc"
 	lru "github.com/hashicorp/golang-lru"
 )
 

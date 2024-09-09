@@ -7,12 +7,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/f01c5700/coreth/core/rawdb"
+	"github.com/f01c5700/coreth/core/state"
+	"github.com/f01c5700/coreth/params"
+	"github.com/f01c5700/coreth/vmerrs"
 	"github.com/stretchr/testify/assert"
 )
 

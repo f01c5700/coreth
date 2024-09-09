@@ -19,13 +19,13 @@ package trie
 import (
 	"errors"
 
-	"github.com/ava-labs/coreth/trie/triedb/hashdb"
-	"github.com/ava-labs/coreth/trie/triedb/pathdb"
-	"github.com/ava-labs/coreth/trie/trienode"
-	"github.com/ava-labs/coreth/trie/triestate"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/f01c5700/coreth/trie/triedb/hashdb"
+	"github.com/f01c5700/coreth/trie/triedb/pathdb"
+	"github.com/f01c5700/coreth/trie/trienode"
+	"github.com/f01c5700/coreth/trie/triestate"
 )
 
 // Config defines all necessary options for database.

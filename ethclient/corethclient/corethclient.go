@@ -33,12 +33,12 @@ import (
 	"runtime"
 	"runtime/debug"
 
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/ethclient"
-	"github.com/ava-labs/coreth/interfaces"
-	"github.com/ava-labs/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/ethclient"
+	"github.com/f01c5700/coreth/interfaces"
+	"github.com/f01c5700/coreth/rpc"
 )
 
 // Client is a wrapper around rpc.Client that implements geth-specific functionality.

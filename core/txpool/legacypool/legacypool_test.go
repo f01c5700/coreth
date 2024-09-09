@@ -39,17 +39,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/txpool"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/trie"
-	"github.com/ava-labs/coreth/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/event"
+	"github.com/f01c5700/coreth/core"
+	"github.com/f01c5700/coreth/core/rawdb"
+	"github.com/f01c5700/coreth/core/state"
+	"github.com/f01c5700/coreth/core/txpool"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/params"
+	"github.com/f01c5700/coreth/trie"
+	"github.com/f01c5700/coreth/utils"
 )
 
 var (

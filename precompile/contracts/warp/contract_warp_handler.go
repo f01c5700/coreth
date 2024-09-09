@@ -9,11 +9,11 @@ import (
 	"github.com/ava-labs/avalanchego/utils/set"
 	"github.com/ava-labs/avalanchego/vms/platformvm/warp"
 	"github.com/ava-labs/avalanchego/vms/platformvm/warp/payload"
-	"github.com/ava-labs/coreth/precompile/contract"
-	"github.com/ava-labs/coreth/predicate"
-	"github.com/ava-labs/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/f01c5700/coreth/precompile/contract"
+	"github.com/f01c5700/coreth/predicate"
+	"github.com/f01c5700/coreth/vmerrs"
 )
 
 var (

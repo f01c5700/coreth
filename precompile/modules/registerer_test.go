@@ -7,8 +7,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ava-labs/coreth/constants"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/f01c5700/coreth/constants"
 	"github.com/stretchr/testify/require"
 )
 

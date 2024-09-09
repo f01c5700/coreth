@@ -9,14 +9,14 @@ import (
 	"testing"
 
 	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/plugin/evm/message"
-	statesyncclient "github.com/ava-labs/coreth/sync/client"
-	"github.com/ava-labs/coreth/sync/handlers"
-	handlerstats "github.com/ava-labs/coreth/sync/handlers/stats"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethdb/memorydb"
+	"github.com/f01c5700/coreth/core/rawdb"
+	"github.com/f01c5700/coreth/plugin/evm/message"
+	statesyncclient "github.com/f01c5700/coreth/sync/client"
+	"github.com/f01c5700/coreth/sync/handlers"
+	handlerstats "github.com/f01c5700/coreth/sync/handlers/stats"
 	"github.com/stretchr/testify/assert"
 )
 

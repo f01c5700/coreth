@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ava-labs/coreth/constants"
-	"github.com/ava-labs/coreth/utils"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/f01c5700/coreth/constants"
+	"github.com/f01c5700/coreth/utils"
 )
 
 var (

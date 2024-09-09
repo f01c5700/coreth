@@ -15,7 +15,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ava-labs/coreth/metrics"
+	"github.com/f01c5700/coreth/metrics"
 )
 
 const (

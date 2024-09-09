@@ -32,11 +32,11 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/core/vm"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/utils"
-	"github.com/ava-labs/coreth/vmerrs"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/core/vm"
+	"github.com/f01c5700/coreth/params"
+	"github.com/f01c5700/coreth/utils"
+	"github.com/f01c5700/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	cmath "github.com/ethereum/go-ethereum/common/math"
 )

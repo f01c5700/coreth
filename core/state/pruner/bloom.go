@@ -31,9 +31,9 @@ import (
 	"errors"
 	"os"
 
-	"github.com/ava-labs/coreth/core/rawdb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/f01c5700/coreth/core/rawdb"
 	bloomfilter "github.com/holiman/bloomfilter/v2"
 )
 

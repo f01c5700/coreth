@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/ava-labs/coreth/core/vm"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/f01c5700/coreth/core/vm"
 )
 
 var _ = (*callFrameMarshaling)(nil)

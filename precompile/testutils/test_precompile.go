@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/coreth/precompile/contract"
-	"github.com/ava-labs/coreth/precompile/modules"
-	"github.com/ava-labs/coreth/precompile/precompileconfig"
-	"github.com/ava-labs/coreth/utils"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/f01c5700/coreth/precompile/contract"
+	"github.com/f01c5700/coreth/precompile/modules"
+	"github.com/f01c5700/coreth/precompile/precompileconfig"
+	"github.com/f01c5700/coreth/utils"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

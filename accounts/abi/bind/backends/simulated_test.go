@@ -37,14 +37,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/coreth/accounts/abi"
-	"github.com/ava-labs/coreth/accounts/abi/bind"
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/interfaces"
-	"github.com/ava-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/f01c5700/coreth/accounts/abi"
+	"github.com/f01c5700/coreth/accounts/abi/bind"
+	"github.com/f01c5700/coreth/core"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/interfaces"
+	"github.com/f01c5700/coreth/params"
 )
 
 func TestSimulatedBackend(t *testing.T) {

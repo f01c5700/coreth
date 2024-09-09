@@ -15,9 +15,9 @@ import (
 	"github.com/ava-labs/avalanchego/database/versiondb"
 	"github.com/ava-labs/avalanchego/ids"
 	"github.com/ava-labs/avalanchego/utils/wrappers"
-	syncclient "github.com/ava-labs/coreth/sync/client"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
+	syncclient "github.com/f01c5700/coreth/sync/client"
 )
 
 var _ AtomicBackend = &atomicBackend{}

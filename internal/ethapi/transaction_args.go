@@ -33,14 +33,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/f01c5700/coreth/core"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/params"
+	"github.com/f01c5700/coreth/rpc"
 )
 
 // TransactionArgs represents the arguments to construct a new transaction

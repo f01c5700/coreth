@@ -12,11 +12,11 @@ import (
 	"github.com/ava-labs/avalanchego/snow/validators"
 	"github.com/ava-labs/avalanchego/vms/platformvm/warp"
 	"github.com/ava-labs/avalanchego/vms/platformvm/warp/payload"
-	"github.com/ava-labs/coreth/peer"
-	"github.com/ava-labs/coreth/warp/aggregator"
-	warpValidators "github.com/ava-labs/coreth/warp/validators"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/f01c5700/coreth/peer"
+	"github.com/f01c5700/coreth/warp/aggregator"
+	warpValidators "github.com/f01c5700/coreth/warp/validators"
 )
 
 var errNoValidators = errors.New("cannot aggregate signatures from subnet with no validators")

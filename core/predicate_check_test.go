@@ -9,9 +9,9 @@ import (
 
 	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
 	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/precompile/precompileconfig"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/params"
+	"github.com/f01c5700/coreth/precompile/precompileconfig"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"

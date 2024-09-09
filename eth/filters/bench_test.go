@@ -32,12 +32,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/coreth/core/bloombits"
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/bitutil"
 	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/f01c5700/coreth/core/bloombits"
+	"github.com/f01c5700/coreth/core/rawdb"
+	"github.com/f01c5700/coreth/core/types"
 )
 
 func BenchmarkBloomBits512(b *testing.B) {

@@ -32,15 +32,15 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ava-labs/coreth/accounts"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/interfaces"
-	"github.com/ava-labs/coreth/rpc"
-	"github.com/ava-labs/coreth/signer/core/apitypes"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/event"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/f01c5700/coreth/accounts"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/interfaces"
+	"github.com/f01c5700/coreth/rpc"
+	"github.com/f01c5700/coreth/signer/core/apitypes"
 )
 
 type ExternalBackend struct {

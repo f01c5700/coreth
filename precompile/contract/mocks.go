@@ -14,8 +14,8 @@ import (
 	reflect "reflect"
 
 	snow "github.com/ava-labs/avalanchego/snow"
-	precompileconfig "github.com/ava-labs/coreth/precompile/precompileconfig"
 	common "github.com/ethereum/go-ethereum/common"
+	precompileconfig "github.com/f01c5700/coreth/precompile/precompileconfig"
 	gomock "go.uber.org/mock/gomock"
 )
 

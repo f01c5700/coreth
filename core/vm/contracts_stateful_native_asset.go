@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/coreth/precompile/contract"
-	"github.com/ava-labs/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/f01c5700/coreth/precompile/contract"
+	"github.com/f01c5700/coreth/vmerrs"
 	"github.com/holiman/uint256"
 )
 

@@ -27,7 +27,7 @@
 package vm
 
 import (
-	"github.com/ava-labs/coreth/vmerrs"
+	"github.com/f01c5700/coreth/vmerrs"
 	"github.com/holiman/uint256"
 )
 

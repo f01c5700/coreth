@@ -40,16 +40,16 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/state/snapshot"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/trie"
-	"github.com/ava-labs/coreth/trie/triedb/hashdb"
-	"github.com/ava-labs/coreth/trie/triedb/pathdb"
-	"github.com/ava-labs/coreth/trie/trienode"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/f01c5700/coreth/core/rawdb"
+	"github.com/f01c5700/coreth/core/state/snapshot"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/trie"
+	"github.com/f01c5700/coreth/trie/triedb/hashdb"
+	"github.com/f01c5700/coreth/trie/triedb/pathdb"
+	"github.com/f01c5700/coreth/trie/trienode"
 	"github.com/holiman/uint256"
 )
 

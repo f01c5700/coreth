@@ -32,17 +32,17 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/internal/ethapi"
-	"github.com/ava-labs/coreth/rpc"
-	"github.com/ava-labs/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/f01c5700/coreth/core/rawdb"
+	"github.com/f01c5700/coreth/core/state"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/internal/ethapi"
+	"github.com/f01c5700/coreth/rpc"
+	"github.com/f01c5700/coreth/trie"
 )
 
 // DebugAPI is the collection of Ethereum full node APIs for debugging the

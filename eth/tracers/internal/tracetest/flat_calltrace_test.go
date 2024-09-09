@@ -19,17 +19,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/core/vm"
-	"github.com/ava-labs/coreth/tests"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/f01c5700/coreth/core"
+	"github.com/f01c5700/coreth/core/rawdb"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/core/vm"
+	"github.com/f01c5700/coreth/tests"
 
 	// Force-load the native, to trigger registration
-	"github.com/ava-labs/coreth/eth/tracers"
+	"github.com/f01c5700/coreth/eth/tracers"
 )
 
 // flatCallTrace is the result of a callTracerParity run.

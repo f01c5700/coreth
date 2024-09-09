@@ -31,9 +31,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/interfaces"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/interfaces"
 )
 
 var (

@@ -35,15 +35,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ava-labs/coreth/accounts/abi"
-	"github.com/ava-labs/coreth/accounts/abi/bind"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/core/vm"
-	"github.com/ava-labs/coreth/interfaces"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/f01c5700/coreth/accounts/abi"
+	"github.com/f01c5700/coreth/accounts/abi/bind"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/core/vm"
+	"github.com/f01c5700/coreth/interfaces"
 	"github.com/stretchr/testify/assert"
 )
 

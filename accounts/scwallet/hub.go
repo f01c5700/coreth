@@ -51,10 +51,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/coreth/accounts"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/f01c5700/coreth/accounts"
 	pcsc "github.com/gballet/go-libpcsclite"
 )
 

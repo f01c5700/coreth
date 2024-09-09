@@ -12,10 +12,10 @@ import (
 
 	safemath "github.com/ava-labs/avalanchego/utils/math"
 
-	"github.com/ava-labs/coreth/constants"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/trie"
+	"github.com/f01c5700/coreth/constants"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/params"
+	"github.com/f01c5700/coreth/trie"
 )
 
 var (

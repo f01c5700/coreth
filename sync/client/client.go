@@ -13,8 +13,8 @@ import (
 
 	"github.com/ava-labs/avalanchego/ids"
 
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/sync/client/stats"
+	"github.com/f01c5700/coreth/params"
+	"github.com/f01c5700/coreth/sync/client/stats"
 
 	"github.com/ava-labs/avalanchego/codec"
 	"github.com/ava-labs/avalanchego/version"
@@ -23,12 +23,12 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/peer"
-	"github.com/ava-labs/coreth/plugin/evm/message"
-	"github.com/ava-labs/coreth/trie"
 	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/f01c5700/coreth/core/rawdb"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/peer"
+	"github.com/f01c5700/coreth/plugin/evm/message"
+	"github.com/f01c5700/coreth/trie"
 )
 
 const (

@@ -31,10 +31,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ava-labs/coreth/accounts"
-	"github.com/ava-labs/coreth/accounts/external"
-	"github.com/ava-labs/coreth/accounts/keystore"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/f01c5700/coreth/accounts"
+	"github.com/f01c5700/coreth/accounts/external"
+	"github.com/f01c5700/coreth/accounts/keystore"
 )
 
 // Config represents a small collection of configuration values to fine tune the

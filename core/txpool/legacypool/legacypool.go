@@ -36,18 +36,18 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ava-labs/coreth/consensus/dummy"
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/txpool"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/metrics"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/prque"
 	"github.com/ethereum/go-ethereum/event"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/f01c5700/coreth/consensus/dummy"
+	"github.com/f01c5700/coreth/core"
+	"github.com/f01c5700/coreth/core/state"
+	"github.com/f01c5700/coreth/core/txpool"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/metrics"
+	"github.com/f01c5700/coreth/params"
+	"github.com/f01c5700/coreth/utils"
 )
 
 const (

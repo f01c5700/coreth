@@ -16,14 +16,14 @@ import (
 	"github.com/ava-labs/avalanchego/database/memdb"
 	"github.com/ava-labs/avalanchego/database/versiondb"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/plugin/evm/message"
-	syncclient "github.com/ava-labs/coreth/sync/client"
-	"github.com/ava-labs/coreth/sync/handlers"
-	handlerstats "github.com/ava-labs/coreth/sync/handlers/stats"
-	"github.com/ava-labs/coreth/sync/syncutils"
-	"github.com/ava-labs/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/f01c5700/coreth/core/rawdb"
+	"github.com/f01c5700/coreth/plugin/evm/message"
+	syncclient "github.com/f01c5700/coreth/sync/client"
+	"github.com/f01c5700/coreth/sync/handlers"
+	handlerstats "github.com/f01c5700/coreth/sync/handlers/stats"
+	"github.com/f01c5700/coreth/sync/syncutils"
+	"github.com/f01c5700/coreth/trie"
 )
 
 const commitInterval = 1024

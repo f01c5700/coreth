@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/trie/trienode"
-	"github.com/ava-labs/coreth/trie/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/trie/trienode"
+	"github.com/f01c5700/coreth/trie/utils"
 	"github.com/gballet/go-verkle"
 	"github.com/holiman/uint256"
 )

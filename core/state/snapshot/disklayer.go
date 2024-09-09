@@ -31,13 +31,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/trie"
-	"github.com/ava-labs/coreth/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/f01c5700/coreth/core/rawdb"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/trie"
+	"github.com/f01c5700/coreth/utils"
 )
 
 // diskLayer is a low level persistent snapshot built on top of a key-value store.

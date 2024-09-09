@@ -34,13 +34,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ava-labs/coreth/accounts/abi"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/core/vm"
-	"github.com/ava-labs/coreth/interfaces"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/event"
+	"github.com/f01c5700/coreth/accounts/abi"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/core/vm"
+	"github.com/f01c5700/coreth/interfaces"
 )
 
 const basefeeWiggleMultiplier = 2

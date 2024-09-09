@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/trie/trienode"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/f01c5700/coreth/core/rawdb"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/trie/trienode"
 	"golang.org/x/crypto/sha3"
 	"golang.org/x/exp/slices"
 )

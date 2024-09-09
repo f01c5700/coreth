@@ -33,7 +33,7 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/ava-labs/coreth/params"
+	"github.com/f01c5700/coreth/params"
 )
 
 const ourPath = "github.com/ava-labs/coreth" // Path to our module

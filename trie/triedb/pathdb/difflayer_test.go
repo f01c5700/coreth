@@ -30,10 +30,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/trie/testutil"
-	"github.com/ava-labs/coreth/trie/trienode"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/f01c5700/coreth/core/rawdb"
+	"github.com/f01c5700/coreth/trie/testutil"
+	"github.com/f01c5700/coreth/trie/trienode"
 )
 
 func emptyLayer() *diskLayer {

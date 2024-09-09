@@ -8,7 +8,7 @@ import (
 	"errors"
 
 	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/coreth/peer"
+	"github.com/f01c5700/coreth/peer"
 
 	"github.com/ava-labs/avalanchego/version"
 )

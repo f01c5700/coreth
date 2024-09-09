@@ -10,8 +10,8 @@ import (
 	"math/big"
 	"slices"
 
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/params"
+	"github.com/f01c5700/coreth/core/state"
+	"github.com/f01c5700/coreth/params"
 
 	"github.com/ava-labs/avalanchego/chains/atomic"
 	"github.com/ava-labs/avalanchego/ids"

@@ -32,10 +32,10 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/trie/testutil"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/f01c5700/coreth/core/rawdb"
+	"github.com/f01c5700/coreth/trie/testutil"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/exp/slices"
 )

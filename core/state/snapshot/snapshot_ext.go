@@ -3,9 +3,9 @@ package snapshot
 import (
 	"time"
 
-	"github.com/ava-labs/coreth/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/f01c5700/coreth/utils"
 )
 
 func (t *Tree) DiskAccountIterator(seek common.Hash) AccountIterator {

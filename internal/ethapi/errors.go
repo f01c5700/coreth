@@ -29,9 +29,9 @@ package ethapi
 import (
 	"fmt"
 
-	"github.com/ava-labs/coreth/accounts/abi"
-	"github.com/ava-labs/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/f01c5700/coreth/accounts/abi"
+	"github.com/f01c5700/coreth/vmerrs"
 )
 
 // revertError is an API error that encompasses an EVM revert with JSON error

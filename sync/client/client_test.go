@@ -15,19 +15,19 @@ import (
 
 	"github.com/ava-labs/avalanchego/ids"
 
-	"github.com/ava-labs/coreth/consensus/dummy"
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/plugin/evm/message"
-	clientstats "github.com/ava-labs/coreth/sync/client/stats"
-	"github.com/ava-labs/coreth/sync/handlers"
-	handlerstats "github.com/ava-labs/coreth/sync/handlers/stats"
-	"github.com/ava-labs/coreth/sync/syncutils"
-	"github.com/ava-labs/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/f01c5700/coreth/consensus/dummy"
+	"github.com/f01c5700/coreth/core"
+	"github.com/f01c5700/coreth/core/rawdb"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/params"
+	"github.com/f01c5700/coreth/plugin/evm/message"
+	clientstats "github.com/f01c5700/coreth/sync/client/stats"
+	"github.com/f01c5700/coreth/sync/handlers"
+	handlerstats "github.com/f01c5700/coreth/sync/handlers/stats"
+	"github.com/f01c5700/coreth/sync/syncutils"
+	"github.com/f01c5700/coreth/trie"
 )
 
 func TestGetCode(t *testing.T) {

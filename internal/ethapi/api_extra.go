@@ -7,12 +7,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/f01c5700/coreth/core"
+	"github.com/f01c5700/coreth/params"
+	"github.com/f01c5700/coreth/rpc"
 )
 
 // GetChainConfig returns the chain config.

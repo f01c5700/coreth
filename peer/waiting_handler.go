@@ -6,7 +6,7 @@ package peer
 import (
 	"context"
 
-	"github.com/ava-labs/coreth/plugin/evm/message"
+	"github.com/f01c5700/coreth/plugin/evm/message"
 )
 
 var _ message.ResponseHandler = &waitingResponseHandler{}

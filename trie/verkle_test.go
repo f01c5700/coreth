@@ -22,11 +22,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/trie/triedb/pathdb"
-	"github.com/ava-labs/coreth/trie/utils"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/f01c5700/coreth/core/rawdb"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/trie/triedb/pathdb"
+	"github.com/f01c5700/coreth/trie/utils"
 )
 
 var (

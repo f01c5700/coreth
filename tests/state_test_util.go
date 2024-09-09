@@ -27,16 +27,16 @@
 package tests
 
 import (
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/state/snapshot"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/trie"
-	"github.com/ava-labs/coreth/trie/triedb/hashdb"
-	"github.com/ava-labs/coreth/trie/triedb/pathdb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/f01c5700/coreth/core"
+	"github.com/f01c5700/coreth/core/rawdb"
+	"github.com/f01c5700/coreth/core/state"
+	"github.com/f01c5700/coreth/core/state/snapshot"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/trie"
+	"github.com/f01c5700/coreth/trie/triedb/hashdb"
+	"github.com/f01c5700/coreth/trie/triedb/pathdb"
 )
 
 func MakePreState(db ethdb.Database, accounts core.GenesisAlloc, snapshotter bool, scheme string) (*trie.Database, *snapshot.Tree, *state.StateDB) {

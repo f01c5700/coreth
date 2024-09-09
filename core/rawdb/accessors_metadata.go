@@ -30,11 +30,11 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/ava-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/f01c5700/coreth/params"
 )
 
 // ReadDatabaseVersion retrieves the version number of the database.

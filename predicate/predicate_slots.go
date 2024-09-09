@@ -4,10 +4,10 @@
 package predicate
 
 import (
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/utils"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/params"
+	"github.com/f01c5700/coreth/utils"
 )
 
 // PreparePredicateStorageSlots populates the the predicate storage slots of a transaction's access list

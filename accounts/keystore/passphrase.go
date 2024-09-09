@@ -47,10 +47,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ava-labs/coreth/accounts"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/f01c5700/coreth/accounts"
 	"github.com/google/uuid"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"

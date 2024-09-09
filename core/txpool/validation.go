@@ -31,14 +31,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto/kzg4844"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/f01c5700/coreth/core"
+	"github.com/f01c5700/coreth/core/state"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/params"
+	"github.com/f01c5700/coreth/vmerrs"
 )
 
 // ValidationOptions define certain differences between transaction validation

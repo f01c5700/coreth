@@ -29,14 +29,14 @@ package miner
 
 import (
 	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/coreth/consensus"
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/txpool"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/precompile/precompileconfig"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
+	"github.com/f01c5700/coreth/consensus"
+	"github.com/f01c5700/coreth/core"
+	"github.com/f01c5700/coreth/core/txpool"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/params"
+	"github.com/f01c5700/coreth/precompile/precompileconfig"
 )
 
 // Backend wraps all methods required for mining.

@@ -21,11 +21,11 @@ import (
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/holiman/uint256"
 
-	"github.com/ava-labs/coreth/constants"
-	"github.com/ava-labs/coreth/eth/filters"
-	"github.com/ava-labs/coreth/metrics"
-	"github.com/ava-labs/coreth/trie"
-	"github.com/ava-labs/coreth/utils"
+	"github.com/f01c5700/coreth/constants"
+	"github.com/f01c5700/coreth/eth/filters"
+	"github.com/f01c5700/coreth/metrics"
+	"github.com/f01c5700/coreth/trie"
+	"github.com/f01c5700/coreth/utils"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -56,15 +56,15 @@ import (
 	"github.com/ava-labs/avalanchego/snow/engine/enginetest"
 	constantsEng "github.com/ava-labs/avalanchego/utils/constants"
 
-	"github.com/ava-labs/coreth/consensus/dummy"
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/eth"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/rpc"
+	"github.com/f01c5700/coreth/consensus/dummy"
+	"github.com/f01c5700/coreth/core"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/eth"
+	"github.com/f01c5700/coreth/params"
+	"github.com/f01c5700/coreth/rpc"
 
 	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	accountKeystore "github.com/ava-labs/coreth/accounts/keystore"
+	accountKeystore "github.com/f01c5700/coreth/accounts/keystore"
 )
 
 var (

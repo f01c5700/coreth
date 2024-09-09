@@ -29,7 +29,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/ava-labs/coreth/core/types"
+	"github.com/f01c5700/coreth/core/types"
 )
 
 var (
