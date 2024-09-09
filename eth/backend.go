@@ -332,7 +332,7 @@ func (s *Ethereum) APIs() []rpc.API {
 		}, {
 			Namespace: "eth",
 			Service:   ethapi.NewBundleAPI(s.APIBackend, s.blockchain),
-			Name:      "eth",
+			Name:      "eth-bundle",
 		},
 	}...)
 }
